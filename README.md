@@ -88,7 +88,6 @@ My goal is to understand the data, find problems, and get ideas for what to anal
 
 
 
-
 # Step 3 — SQL Data Analysis (MySQL)
 
 # Goal
@@ -148,9 +147,30 @@ I encountered a lot of bugs while coding but was determined to handle it and boo
 
 # Step 4 — Dashboard & Data Visualization
 
-# Goal: 
-Communicate insights clearly through charts and visual storytelling.
-Charts created: Bar charts, pie charts, line charts.
+# Goal
+Create a visual representation of data to communicate insights clearly and also tell stories with data.
+
+## Key Requirements
+- Data Visualization 
+- Charts 
+- Storytelling with data
+
+## Here's the outcome
+- Chairs ($195.6) & Printer ($195.6) represent the highest strategic cash flow.
+- Instagram & Facebook together drive 41.61% of revenue, prioritize social ad spend.
+- 41.4% of orders are lost to cancellations and returns.
+- Online is the most popular payment Method.
+- Peak:June 2024 has $68,068.
+
+## Files in this Repo
+- Excel.xlxs – Pivot table 
+- dataset.xlxs – Dataset used.
+
+A Special thanks to Decodelabs for providing and giving me such privilege to hands-on practice. I'm ever willing to handle a real dataset and create actionable insights from them. I'm learning and growing by the day.
+  
+
+## Tools Used
+- Excel, Pivot Table, Excel Formulas
 
 # Dashboard Highlights
 - Chairs ($195.6k) and Printers ($195.6k) represent the highest revenue categories
@@ -170,10 +190,12 @@ Business insight generation and recommendations
 
 
 # About the Author
-Akumah Esther Chinomso — Entry-level Data Analyst based in Port Harcourt, Nigeria.
-Open to remote data analyst roles globally.
-LinkedIn: linkedin.com/in/esther-akumah
-GitHub: github.com/akumahesther Email: akumahesther@gmail.com
+Akumah Esther Chinomso 
+- Entry-level Data Analyst
+- Port Harcourt, Nigeria.
+- LinkedIn: linkedin.com/in/esther-akumah
+- GitHub: github.com/akumahesther 
+- Email: akumahesther@gmail.com
 
 
 
