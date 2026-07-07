@@ -91,10 +91,13 @@ My goal is to understand the data, find problems, and get ideas for what to anal
 
 # Step 3 — SQL Data Analysis (MySQL)
 
-# Goal: 
-Extract business insights using SQL queries.
+# Goal
+Use SQL queries to extract insights from a dataset.
+The project 3 is about Creating insights using SQL Queries 
+(Clauses like: Select, From, Where, Group by and Order By) 
+( Formulas like: Sum, Count and Avg) to extract Insights
 
-# Setup:
+# Setup
 Created database: Decodelabs_Internship
 Converted Excel file to CSV for import
 Imported flat file: 14 columns, 1,200 rows
@@ -102,7 +105,19 @@ Imported flat file: 14 columns, 1,200 rows
 # Queries used: 
 SELECT, FROM, WHERE, GROUP BY, ORDER BY, COUNT, SUM, AVG
 
-# Key SQL Insights
+## Key Requirements
+- Write SELECT queries
+- Use WHERE, ORDER BY, GROUP BY
+- Perform aggregations (COUNT, SUM, AVG)
+
+  ## Step by Step Procedures
+  - I Created the Database and i named it Decodelabs_Internship.
+  - I changed the Excel Xlxs to CSV (Comma Delimited).
+  - I imported my flat file to the database I created.
+  - Columns: 14
+  - Rows: 1200
+
+## Key Insights
 - Revenue & Top Products
 Total revenue: $1.26M across 1,200 orders
 Chairs and Printers are the top revenue-generating product categories
@@ -110,12 +125,25 @@ Chairs and Printers are the top revenue-generating product categories
 497 out of 1,200 orders (41.4%) were either Cancelled or Returned
 This is significantly high and indicates potential operational issues
 Recommendation: Investigate which products have the highest cancellation and return rates. Review customer feedback to identify root causes and take corrective action.
--Marketing Channel Performance
+- Marketing Channel Performance
 Instagram drives the most revenue across all referral sources
 Instagram and Facebook together account for 41.61% of total revenue
 Recommendation: Prioritize social media advertising spend on Instagram and Facebook for maximum ROI
 - Payment Method
-Online is the most popular payment method across all transactions.
+Online is the most popular payment method across all transactions
+  
+## Experience
+I encountered a lot of bugs while coding but was determined to handle it and boom! I did it after several trials.
+
+## Files in this Repo
+- select_queries.sql – Basic SELECT queries
+- group_by_queries.sql – Grouping queries
+- aggregations.sql – COUNT, SUM, AVG queries
+- dataset.csv – Dataset used
+- query_outputs.csv – Results
+
+## Tools Used
+- SQL, MySQL.
 
 
 # Step 4 — Dashboard & Data Visualization
