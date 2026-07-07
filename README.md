@@ -32,6 +32,33 @@ Clean the raw dataset by handling missing values, inconsistencies, duplicates, a
 Data types: All columns converted to correct formats (dates, numbers, text)
 Currency formatting: Unit Price and Total Price formatted to USD ($) at 2 decimal places for accurate analysis
 
+## Key Requirements
+- Identify missing or null values
+- Remove duplicates
+- Correct data formats (dates, numbers, text)
+- Trimmed the dataset
+- Capitalized the categoryical data with Proper Case.
+
+## Step by Step Data Cleaning
+- Before I started cleaning the data, I looked through the dataset to understand what the dataset is all about, in the course of looking through the dataset, I saw some missing values, inconsistencies in some columns and inappropriate data type format. 
+- I clean to ensure absolute accuracy in the dataset.
+  
+## Here is a breakdown of my data cleaning process:
+- Handled Missing & Duplicate Data: No duplicate values were found in the Order ID while missing values in columns like Coupon codes column was replaced with "No Coupon" Because the missing values were over 20% values of the dataset.
+- Standardized Format: AlL the inconsistencies in the Categorical columns were capitalized and trimmed.
+- Number Formnats: I Changed all the columns into their proper data type format.
+- Changed the Total price and Unit Price to Currency ($) to 2 decimal places for accurate trend analysis.
+
+## Data Changes
+- Original Dataset: 1,200 rows
+- Cleaned Dataset: 1,200 rows
+- Row Removed:No duplicate values found.
+- Missing values: 309 null values was replaced with "No Coupon"
+- Standardized Format: I Capitalized and trimmed all the Categorical columns
+- Number Format: All columns were changed to its appropriate data type.
+
+l am still learning and growing every day, but seeing raw, chaotic data transform into clear, actionable insights. Data cleaning leads to better insights.
+
 # Result: 
 Clean, analysis-ready dataset of 1,200 records.
 
